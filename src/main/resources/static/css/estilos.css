@@ -1,0 +1,93 @@
+/* 
+    Author     : Tawnny Elizondo
+*/
+
+#encabezado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #496D8D;
+    color: white;
+}
+
+#encabezado h1{
+    display: inline;
+}
+
+.descripcion{
+    font-size: 25px;
+}
+
+#menu{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #9B8030;
+    color: black;
+}
+
+#menu a:visited{
+    color: navy;
+}
+
+#menu a:hover{
+    background: green;
+    color: white;
+}
+
+#barraLateral{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: #48cccf;
+    color: white;
+}
+
+
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: whitesmoke;
+    color: black;
+    overflow: auto;
+    margin-left: 5px;
+}
+
+#piePagina{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
+#encabezadoTabla{
+    font-size: 20px;
+    background-color: darkblue;
+    color:white;
+}
+
+#tablaResumen tr{
+    font-size: 20px;
+}
+#tablaResumen tr:nth-child(odd){
+    background-color: white;
+    color:black;
+}
+
+#tablaResumen tr:nth-child(even){
+    background-color: #f00d0d;
+    color:white;
+}
